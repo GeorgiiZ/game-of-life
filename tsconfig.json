@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./build",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/build/**",
+    "**/__tests__"
+  ],
+  "include": [
+    "src/model/**/*"
+  ]
+}

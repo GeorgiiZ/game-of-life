@@ -1,0 +1,4 @@
+{
+  "moduleRoot": "./src",
+  "presets": ["@babel/preset-react"]
+}
