@@ -1,1 +1,1 @@
-export * from './conway-game-of-life'
+export * from './conway-game-of-life.js'

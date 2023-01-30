@@ -5,16 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "build-jsx": "npx babel --watch src --out-dir build"
+    "build-jsx": "npx babel --watch src --out-dir public/scripts",
+    "start": "http-server -p 3000",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
+    "http-server": "^14.1.1",
     "typescript": "^4.9.4"
   }
 }

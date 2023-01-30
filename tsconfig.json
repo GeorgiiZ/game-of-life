@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "outDir": "./build",
+    "outDir": "./public/scripts",
     "rootDir": "src"
   },
   "exclude": [
